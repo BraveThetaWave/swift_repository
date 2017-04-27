@@ -14,6 +14,9 @@
 		3F54E9A01EAE880B005E12D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F54E99E1EAE880B005E12D5 /* LaunchScreen.storyboard */; };
 		3F54E9AB1EAE880B005E12D5 /* Hello_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54E9AA1EAE880B005E12D5 /* Hello_WorldTests.swift */; };
 		3F54E9B61EAE880B005E12D5 /* Hello_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54E9B51EAE880B005E12D5 /* Hello_WorldUITests.swift */; };
+		AC8FC4711EB284EA00F61BA9 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = AC8FC4701EB284EA00F61BA9 /* button2.png */; };
+		AC8FC4731EB284FE00F61BA9 /* 3d-push-button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC8FC4721EB284FE00F61BA9 /* 3d-push-button.jpg */; };
+		AC8FC4751EB2858600F61BA9 /* Red_button.png in Resources */ = {isa = PBXBuildFile; fileRef = AC8FC4741EB2858600F61BA9 /* Red_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3F54E9B11EAE880B005E12D5 /* Hello WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F54E9B51EAE880B005E12D5 /* Hello_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WorldUITests.swift; sourceTree = "<group>"; };
 		3F54E9B71EAE880B005E12D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8FC4701EB284EA00F61BA9 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button2.png; path = ../../../../Downloads/button2.png; sourceTree = "<group>"; };
+		AC8FC4721EB284FE00F61BA9 /* 3d-push-button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "3d-push-button.jpg"; path = "../../../../Downloads/3d-push-button.jpg"; sourceTree = "<group>"; };
+		AC8FC4741EB2858600F61BA9 /* Red_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Red_button.png; path = ../../../../Downloads/Red_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				3F54E9951EAE880B005E12D5 /* AppDelegate.swift */,
 				3F54E9971EAE880B005E12D5 /* ViewController.swift */,
 				3F54E9991EAE880B005E12D5 /* Main.storyboard */,
+				AC8FC4741EB2858600F61BA9 /* Red_button.png */,
+				AC8FC4721EB284FE00F61BA9 /* 3d-push-button.jpg */,
+				AC8FC4701EB284EA00F61BA9 /* button2.png */,
 				3F54E99C1EAE880B005E12D5 /* Assets.xcassets */,
 				3F54E99E1EAE880B005E12D5 /* LaunchScreen.storyboard */,
 				3F54E9A11EAE880B005E12D5 /* Info.plist */,
@@ -232,9 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8FC4711EB284EA00F61BA9 /* button2.png in Resources */,
 				3F54E9A01EAE880B005E12D5 /* LaunchScreen.storyboard in Resources */,
 				3F54E99D1EAE880B005E12D5 /* Assets.xcassets in Resources */,
+				AC8FC4751EB2858600F61BA9 /* Red_button.png in Resources */,
 				3F54E99B1EAE880B005E12D5 /* Main.storyboard in Resources */,
+				AC8FC4731EB284FE00F61BA9 /* 3d-push-button.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +519,7 @@
 				3F54E9BC1EAE880B005E12D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F54E9BD1EAE880B005E12D5 /* Build configuration list for PBXNativeTarget "Hello WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				3F54E9BF1EAE880B005E12D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F54E9C01EAE880B005E12D5 /* Build configuration list for PBXNativeTarget "Hello WorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				3F54E9C21EAE880B005E12D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

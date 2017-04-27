@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 class ViewController: UIViewController {
     var timesClicked : Int = 0
     @IBOutlet weak var buttonLabel: UILabel!
@@ -32,16 +31,15 @@ class ViewController: UIViewController {
                 break;
             case 6:
                 buttonLabel.text = "-_-"
-                print("-_-");
                 break;
             case 7:
                 buttonLabel.text = "0_0"
                 break;
             case 8:
-                buttonLabel.text = "x_x"
+                buttonLabel.text = "X_X"
                 break;
             default:
-                print("")
+                timesClicked = 0
             
             
             
@@ -52,9 +50,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
         // Dispose of any resources that can be recreated.
     }
 
