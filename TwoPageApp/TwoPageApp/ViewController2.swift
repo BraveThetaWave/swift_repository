@@ -9,7 +9,6 @@
 import UIKit
 
 class ViewController2: UIViewController {
-    @IBOutlet weak var MoneyLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
